@@ -1,3 +1,5 @@
+%% STILL ERRORS- Needs to have data smoothly go from one to another rather than reload files, and error in matrix support
+
 %% 1. Load data
 eeglab nogui;
 EEG = pop_loadset('filename','sub-G01S01_task-pddecision_eeg.set','filepath','C:\Users\cunni\Downloads\');
